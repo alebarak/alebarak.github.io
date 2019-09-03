@@ -1,1 +1,60 @@
-ui
+ /*start body*/
+body{
+     colour: black #24292e;
+        font-family:
+        Helvitca, Arial,
+        sans-serif;
+        font-size:16 px;
+        line-height:1.5em;
+        margin:0;
+        padding:0;
+
+    } 
+     /*end body*/
+
+     /*start debug*/ 
+     .bg-oranged{
+         background-color: orangered;
+     }
+     .bg-aqua{
+        background-color:aqua;
+    }
+     /*end debug*/
+
+
+     /*start countainer*/
+     .countainer{
+         margin:10px auto;
+         overflow:auto;
+         width:90%;
+
+    }
+    .countainer full{
+        margin:10px auto;
+        overflow:auto;
+        width:100%;
+
+   }
+     /*end countainer*/
+
+     /* start logo*/
+     .logo{
+         text-align: center;
+     }
+     /* end logo*/
+
+     /*start menu primer*/
+     .menu-primer ul{
+         background-color: aqua;
+         bolder: radius 4px;
+         box-shadow: 
+            0 3px 5px -1px blue,
+            0 6px 10px 0 blue,
+            0 1px 18px 0 blue;
+     }
+     
+      /*end menu primer*/
+
+      .menu-primer li{
+          display: inline-block;
+      }
